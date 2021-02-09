@@ -1,0 +1,54 @@
+{
+    "auth": {
+        "username": "sanketmali4",
+        "access_key": "XaqpcHttuyFzXSzC3uNM"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "OS X Big Sur",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+        {
+            "browser": "firefox",
+            "os": "OS X Big Sur",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+        {
+            "browser": "firefox",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+        {
+            "browser": "edge",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        
+      
+        }
+    ],
+    "run_settings": {
+        "cypress_config_file": "./cypress.json",
+        "cypress_version": "6.2.1",
+        "project_name": "My sandbox project",
+        "build_name": "Build no. 1",
+        "parallels": "5"
+    },
+    "connection_settings": {
+        "local": true,
+        "local_identifier": null
+    },
+    "disable_usage_reporting": false
+}
