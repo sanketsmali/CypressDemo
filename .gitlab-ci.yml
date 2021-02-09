@@ -6,4 +6,5 @@ test:
   stage: test
   script:
     - npm install
-    - npm run test --headless 
+    - npm install -g browserstack-cypress-cl
+    - browserstack-cypress run --sync 
