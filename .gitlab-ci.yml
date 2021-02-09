@@ -6,5 +6,6 @@ test:
   stage: test
   script:
     - npm install
+    - npm fund
     - npm install -g browserstack-cypress-cl
     - browserstack-cypress run --sync 
