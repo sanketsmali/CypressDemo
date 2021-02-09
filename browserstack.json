@@ -47,7 +47,7 @@
         "parallels": "5"
     },
     "connection_settings": {
-        "local": true,
+        "local": false,
         "local_identifier": null
     },
     "disable_usage_reporting": false
