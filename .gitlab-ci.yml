@@ -6,4 +6,4 @@ test:
   stage: test
   script:
     - npm install
-    - $(npm bin)/cypress run --browser chrome
+    - $(npm bin)/browserstack-cypress run 
