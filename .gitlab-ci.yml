@@ -1,5 +1,9 @@
 image: cypress/base:10
-cypress-e2e:
+
+stages:
+  - test
+test:
+  stage: test
   script:
     - npm install
-    - $(npm bin)/browserstack-cypress run --sync
+    - npm run runHeadless
