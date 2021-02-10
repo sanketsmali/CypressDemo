@@ -8,4 +8,4 @@ test:
     - npm install -g npm@latest
     - npm fund
     - npm install -g browserstack-cypress-cli
-    - browserstack-cypress run --sync
+    - browserstack-cypress run --sync --specs "cypress/integration/specs/1_navigationMenu_Item.spec.js,cypress/integration/specs/2_VeryGame.spec.js"
