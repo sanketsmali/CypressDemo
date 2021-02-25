@@ -11,6 +11,7 @@
     "e2e:record": "npm run test:record & npm run merge_reports & npm run generate_report"
   },
   "devDependencies": {
+    "@percy/cypress": "^2.3.4",
     "cypress": "^6.4.0",
     "cypress-xpath": "^1.4.0",
     "fs-extra": "^7.0.1",

@@ -19,25 +19,10 @@
                 "latest",
                 "latest-1"
             ]
-        },
-        {
-            "browser": "firefox",
-            "os": "Windows 10",
-            "versions": [
-                "latest",
-                "latest-1"
-            ]
-        },
-        {
-            "browser": "edge",
-            "os": "Windows 10",
-            "versions": [
-                "latest",
-                "latest-1"
-            ]
-        
-      
         }
+    
+      
+    
     ],
     "run_settings": {
         "cypress_config_file": "./cypress.json",
@@ -47,7 +32,7 @@
         "parallels": "5"
     },
     "connection_settings": {
-        "local": false,
+        "local": true,
         "local_identifier": null
     },
     "disable_usage_reporting": false
