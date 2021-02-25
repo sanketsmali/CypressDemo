@@ -7,7 +7,7 @@ Install all the dependencies
 
 `npm install`
 
-### Running tests
+### Running tests Locally
 You have essentially 2 options: 
 
 Run the e2e tests in headless mode or in GUI mode. 
@@ -19,26 +19,37 @@ GUI mode opens the nice Cypress GUI and is more suited while developing e2e test
 
 Each can run their own webpack dev server or use the one that is already started by you.
 
-#### GUI Mode
+#### GUI Mode Locally
 `npm run test:runner` - this starts the Cypress test runner
 
-![alt text](report.png "GUI Execution Report")
 
-#### Headless mode
+#### Headless mode locally
 `npm run test` - this starts e2e tests in headless without video
 
 `npm run test:record` - this starts e2e tests in headless with video recording
 
-*Recorded videos* - ./cypress/videos
 
-![alt text](report2.png "Headless Execution Report")
+### Running tests on BrowserStack
 
-### Coverage
-- Home page
-- Contact us page
+# Install the BrowserStack Cypress CLI
+npm install -g browserstack-cypress-cli
+
+
+# Create a sample configuration file for configurations and capabilities
+
+browserstack-cypress init
+
+browserstack-cypress run --sync
+
+
+# Generate Report 
+
+browserstack-cypress generate-report <build_id>
+
+
 
 ### Prequisites
 - Node.js should be installed
 
 
-**Author:** Abhishek Yadav
+
