@@ -33,19 +33,19 @@ Each can run their own webpack dev server or use the one that is already started
 
 ##### Install the BrowserStack Cypress CLI
 
-npm install -g browserstack-cypress-cli
+`npm install -g browserstack-cypress-cli`
 
 
 #### Create a sample configuration file for configurations and capabilities
 
-browserstack-cypress init
+`browserstack-cypress init`
 
-browserstack-cypress run --sync
+`browserstack-cypress run --sync`
 
 
 ### Generate Report
 
-browserstack-cypress generate-report <build_id>
+`browserstack-cypress generate-report <build_id>`
 
 
 ### Prequisites
