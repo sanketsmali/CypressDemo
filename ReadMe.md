@@ -31,19 +31,19 @@ Each can run their own webpack dev server or use the one that is already started
 
 ### Running tests on BrowserStack
 
- 'Install the BrowserStack Cypress CLI'
+##### Install the BrowserStack Cypress CLI
 
 npm install -g browserstack-cypress-cli
 
 
-'Create a sample configuration file for configurations and capabilities'
+#### Create a sample configuration file for configurations and capabilities
 
 browserstack-cypress init
 
 browserstack-cypress run --sync
 
 
-#### Generate Report
+### Generate Report
 
 browserstack-cypress generate-report <build_id>
 
